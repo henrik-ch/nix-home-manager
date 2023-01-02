@@ -1,0 +1,8 @@
+
+.oh-my-zsh/**
+.cache/**
+.local/**
+.devenv/**
+.vscode-server/**
+.nix-defexpr/**
+github/**
