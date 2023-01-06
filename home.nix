@@ -21,6 +21,10 @@
 
   home.packages = [
     pkgs.cowsay
+    pkgs.jq
+    pkgs.git
+    pkgs.gh
+    pkgs.ripgrep
   ];
 
 
