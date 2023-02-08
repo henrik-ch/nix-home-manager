@@ -22,7 +22,6 @@
   home.packages = [
     pkgs.cowsay
     pkgs.jq
-    pkgs.git
     pkgs.gh
     pkgs.ripgrep
   ];
@@ -30,6 +29,25 @@
   programs.direnv.enable = true;
   programs.direnv.nix-direnv.enable = true;
 
-  programs.bash.enable = true;
+  programs.git = {
+    enable = true;
+    userName = "i97henka";
+    userEmail = "no@no.no";
+  };
+
+  programs.bash = {
+    enable = true;
+    shellAliases = {
+      ll = "ls -l";
+      ".." = "cd ..";
+      gst = "git status";
+      glo = "git log --oneline";
+      gfa = "git fetch --all";
+      ggfl = "git push --force-with-lease";
+    };
+  };
+  
+  
+  
 
 }
