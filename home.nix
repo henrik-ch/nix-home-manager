@@ -28,6 +28,7 @@
 
   programs.direnv.enable = true;
   programs.direnv.nix-direnv.enable = true;
+  programs.fzf.enable = true;
 
   programs.git = {
     enable = true;
