@@ -20,7 +20,6 @@
   programs.home-manager.enable = true;
 
   home.packages = [
-    pkgs.cowsay
     pkgs.jq
     pkgs.gh
     pkgs.ripgrep
