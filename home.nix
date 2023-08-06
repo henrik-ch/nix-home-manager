@@ -42,6 +42,7 @@
       ll = "ls -l";
       ".." = "cd ..";
       gst = "git status";
+      gil = "gh issue list";
       glo = "git log --oneline";
       gfa = "git fetch --all";
       ggfl = "git push --force-with-lease";
