@@ -24,6 +24,10 @@
     pkgs.gh
     pkgs.ripgrep
   ];
+ 
+  home.sessionVariables = {
+    EDITOR = "vim"; # or "nano" "emacs" or similar
+  };
 
   programs.direnv.enable = true;
   programs.direnv.nix-direnv.enable = true;
