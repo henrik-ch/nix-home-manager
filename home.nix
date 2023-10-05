@@ -50,6 +50,7 @@
       glo = "git log --oneline";
       gfa = "git fetch --all";
       ggfl = "git push --force-with-lease";
+      cde = "code . &";
     };
   };
   
